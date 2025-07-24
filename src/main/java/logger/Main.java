@@ -1,5 +1,7 @@
 package logger;
 
+import logger.queryprocessor.QueryProcessor;
+import logger.queryprocessor.QueryProcessorFactory;
 import logger.utils.FilePathCheck;
 
 import java.util.Scanner;
@@ -54,6 +56,17 @@ public class Main {
             if (filePathValid) {
                 scanner.nextLine();
                 break;
+            }
+        }
+        while (true) {
+            System.out.println("query: ");
+            String query = scanner.nextLine();
+
+            try {
+                QueryProcessorFactory queryProcessorFactory = new QueryProcessorFactory();
+                QueryProcessor processorFactory = queryProcessorFactory.getQueryProcessor(query);
+            } catch (Exception e) {
+                System.out.println("Please use valid query- 'select' or 'find' ");
             }
         }
     }

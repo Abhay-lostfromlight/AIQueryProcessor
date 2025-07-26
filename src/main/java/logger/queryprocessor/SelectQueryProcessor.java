@@ -1,6 +1,6 @@
 package logger.queryprocessor;
 
-import logger.entity.Log;
+import logger.pojo.Log;
 import logger.io.FileReader;
 import logger.io.Reader;
 import java.sql.Timestamp;

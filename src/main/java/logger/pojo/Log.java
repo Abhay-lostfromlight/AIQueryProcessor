@@ -1,4 +1,6 @@
-package logger.entity;
+package logger.pojo;
+
+import logger.enums.Severity;
 
 import java.io.Serializable;
 
@@ -6,7 +8,7 @@ import java.sql.Timestamp;
 
 public class Log implements Serializable {
 
-    final static long serialVersionUID = 1234L;
+    final static long serialVersionUID = 1L;
 
     private String data;
 

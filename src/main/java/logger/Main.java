@@ -48,6 +48,7 @@ public class Main {
                         break;
 
                     default:
+                        filePath = input;
                         if(FilePathCheck.validFilePath(input)){
                             filePathValid = true;
                         }
@@ -64,7 +65,8 @@ public class Main {
 
             try {
                 QueryProcessorFactory queryProcessorFactory = new QueryProcessorFactory();
-                QueryProcessor processorFactory = queryProcessorFactory.getQueryProcessor(query);
+                QueryProcessor processor = queryProcessorFactory.getQueryProcessor(query);
+                processor.processor(query, filePath);
             } catch (Exception e) {
                 System.out.println("Please use valid query- 'select' or 'find' ");
             }

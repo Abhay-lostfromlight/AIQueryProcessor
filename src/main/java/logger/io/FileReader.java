@@ -1,6 +1,6 @@
 package logger.io;
 
-import logger.entity.Log;
+import logger.pojo.Log;
 
 import java.io.*;
 import java.util.ArrayList;

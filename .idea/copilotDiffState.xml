@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/pom.xml" />
+              <option name="originalContent" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;&#10;         xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;         xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;&#10;    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;&#10;&#10;    &lt;groupId&gt;procesor&lt;/groupId&gt;&#10;    &lt;artifactId&gt;queryProcessorAI&lt;/artifactId&gt;&#10;    &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;&#10;&#10;    &lt;properties&gt;&#10;        &lt;maven.compiler.source&gt;24&lt;/maven.compiler.source&gt;&#10;        &lt;maven.compiler.target&gt;24&lt;/maven.compiler.target&gt;&#10;        &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;&#10;    &lt;/properties&gt;&#10;&#10;&lt;/project&gt;" />
+              <option name="updatedContent" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;&#10;         xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;         xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;&#10;    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;&#10;&#10;    &lt;groupId&gt;procesor&lt;/groupId&gt;&#10;    &lt;artifactId&gt;queryProcessorAI&lt;/artifactId&gt;&#10;    &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;&#10;&#10;    &lt;properties&gt;&#10;        &lt;maven.compiler.source&gt;24&lt;/maven.compiler.source&gt;&#10;        &lt;maven.compiler.target&gt;24&lt;/maven.compiler.target&gt;&#10;        &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;&#10;    &lt;/properties&gt;&#10;&#10;    &lt;dependencies&gt;&#10;        &lt;!-- Google HTTP Client Library for Java --&gt;&#10;        &lt;dependency&gt;&#10;            &lt;groupId&gt;com.google.http-client&lt;/groupId&gt;&#10;            &lt;artifactId&gt;google-http-client&lt;/artifactId&gt;&#10;            &lt;version&gt;1.42.3&lt;/version&gt;&#10;        &lt;/dependency&gt;&#10;        &#10;        &lt;!-- Google HTTP Client Gson for JSON processing --&gt;&#10;        &lt;dependency&gt;&#10;            &lt;groupId&gt;com.google.http-client&lt;/groupId&gt;&#10;            &lt;artifactId&gt;google-http-client-gson&lt;/artifactId&gt;&#10;            &lt;version&gt;1.42.3&lt;/version&gt;&#10;        &lt;/dependency&gt;&#10;    &lt;/dependencies&gt;&#10;&#10;&lt;/project&gt;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/logger/ast/ASTNode.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/logger/ast/ASTNode.java" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/logger/ast/ASTNodeType.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/logger/ast/ASTNodeType.java" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

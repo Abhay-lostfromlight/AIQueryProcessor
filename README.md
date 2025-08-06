@@ -4,13 +4,13 @@ An intelligent log processing system **built from scratch in Java** that convert
 
 ##  Key Features
 
--  AI-Powered Natural Language Processing**: Convert plain English to SQL queries using Google Gemini AI
--  Multi-Query Support**: Natural language, SQL SELECT, and simple text search
--  Cross-Platform Compatible**: Runs on Windows, Linux, macOS - works with serialized/deserialized log data
--  Smart Rate Limiting**: Built-in API throttling and retry mechanisms
--  Interactive CLI**: Colorful terminal interface with real-time feedback
--  Flexible Log Processing**: Handles various log formats with timestamp, severity, and content filtering
--  Built from Scratch**: Custom Java implementation with no external frameworks
+-  AI-Powered Natural Language Processing: Convert plain English to SQL queries using Google Gemini AI
+-  Multi-Query Support: Natural language, SQL SELECT, and simple text search
+-  Cross-Platform Compatible: Runs on Windows, Linux, macOS - works with serialized/deserialized log data
+-  Smart Rate Limiting: Built-in API throttling and retry mechanisms
+-  Interactive CLI: Colorful terminal interface with real-time feedback
+-  Flexible Log Processing: Handles various log formats with timestamp, severity, and content filtering
+-  Built from Scratch: Custom Java implementation with no external frameworks
 
 ##  Installation
 
@@ -23,7 +23,7 @@ An intelligent log processing system **built from scratch in Java** that convert
 
 1. **Clone and build**:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Abhay-lostfromlight/AIQueryProcessor.git>
    cd queryProcessorAI
    mvn clean compile
    ```
@@ -45,7 +45,7 @@ An intelligent log processing system **built from scratch in Java** that convert
 
 Get your Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
 
-## 💡 Usage
+##  Usage
 
 ### Interactive Commands
 
@@ -83,11 +83,11 @@ Search term: database connection
 4. **Cross-Platform**: Java-based solution works on any OS with JVM
 5. **Custom Implementation**: Built entirely from scratch using core Java and minimal dependencies
 
-## 📄 License
+##  License
 
 MIT License - see LICENSE file for details.
 
-## 🚨 Troubleshooting
+##  Troubleshooting
 
 - **No API key**: Set `GEMINI_API_KEY` environment variable
 - **Rate limits**: App automatically retries with backoff

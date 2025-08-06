@@ -4,13 +4,13 @@ An intelligent log processing system **built from scratch in Java** that convert
 
 ##  Key Features
 
-- ** AI-Powered Natural Language Processing**: Convert plain English to SQL queries using Google Gemini AI
-- ** Multi-Query Support**: Natural language, SQL SELECT, and simple text search
-- ** Cross-Platform Compatible**: Runs on Windows, Linux, macOS - works with serialized/deserialized log data
-- ** Smart Rate Limiting**: Built-in API throttling and retry mechanisms
-- ** Interactive CLI**: Colorful terminal interface with real-time feedback
-- ** Flexible Log Processing**: Handles various log formats with timestamp, severity, and content filtering
-- **️ Built from Scratch**: Custom Java implementation with no external frameworks
+-  AI-Powered Natural Language Processing**: Convert plain English to SQL queries using Google Gemini AI
+-  Multi-Query Support**: Natural language, SQL SELECT, and simple text search
+-  Cross-Platform Compatible**: Runs on Windows, Linux, macOS - works with serialized/deserialized log data
+-  Smart Rate Limiting**: Built-in API throttling and retry mechanisms
+-  Interactive CLI**: Colorful terminal interface with real-time feedback
+-  Flexible Log Processing**: Handles various log formats with timestamp, severity, and content filtering
+-  Built from Scratch**: Custom Java implementation with no external frameworks
 
 ##  Installation
 

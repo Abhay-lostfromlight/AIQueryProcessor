@@ -75,7 +75,7 @@ Search term: database connection
 # Direct SQL execution
 ```
 
-## 🔧 How It Works
+##  How It Works
 
 1. **Universal Log Processing**: Reads serialized log data, making it platform-independent
 2. **AI Translation**: Gemini AI converts natural language to SQL

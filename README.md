@@ -83,10 +83,6 @@ Search term: database connection
 4. **Cross-Platform**: Java-based solution works on any OS with JVM
 5. **Custom Implementation**: Built entirely from scratch using core Java and minimal dependencies
 
-##  License
-
-MIT License - see LICENSE file for details.
-
 ##  Troubleshooting
 
 - **No API key**: Set `GEMINI_API_KEY` environment variable
